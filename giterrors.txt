@@ -1,0 +1,42 @@
+error-to-failed-to-push-to-some-refs
+error
+
+Try this git command
+
+git push origin master --force or short of force -f
+
+git push origin master -f
+
+.htaccess / redirect www-cpanel
+
+RewriteCond %{HTTP_HOST} ^domain1anda.com RewriteRule ^(.*) http://domain2anda.com/$1 [P]
+
+//whatsapp!!!
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PT.Payung Anak Bangsa</title>
+ERROR
+
+! [rejected] master -> master (non-fast-forward) error: failed to push some refs to 'https://github.com/example/example.git' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again.>hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+nah, mudah ni cara mengatasinya, cukup ikuti langkah berikut ini :
+
+Buat dulu Repository kalian Buka Git Bash kalian dan ketik perintah berikut
+
+$ git init
+
+$ git add .
+
+$ git commit -m "First commit"
+
+$ git remote add origin {remote repository URL}
+
+contoh git remote add origin https://github.com/example/example.git
+
+Solusinya ada di sini nih,
+
+$ git pull origin master --allow-unrelated-histories
+
+Habis itu, baru deh kalian Push $ git push origin master
+
+melihat status update git, $ git push origin master -f
