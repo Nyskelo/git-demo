@@ -260,7 +260,7 @@ __________________________________________________________________
 		
 	Ditator and Lieutenants workflow
 		
-	Forking workflow (Forks Fork, pull request request or merge )
+	Forking workflow (Forks Fork, pull request request or merge ) 
 		
 	
 	
