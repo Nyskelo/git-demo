@@ -232,7 +232,35 @@ Avoid conflict
 		git remote remove origin
 		
 	--------------------------------------------------------------
-	 
 	
+Branching strategies
+__________________________________________________________________
+
+	
+	Centralized strategy (Master Branch)
+	
+	Feature-branch workflow 
+		(Here we create a branch, create some 
+		fish in it, and then we merge the branch back into the upstream 
+		into the branch we had initially separated from. In this case, 
+		it's master. )
+	
+	Gitflow
+		A successful Git branching model
+		https://nvie.com/posts/a-successful-git-branching-model/
+		git flow is a system where we use a different branch. 
+		The feature branch but reserve the right to create some 
+		additional specific branches for specific tasks.
+		
+	
+	Integration manager workflow
+		You can commit code, meaning we can push to wander processor 
+		and pull from another one. That is the concept at the basis 
+		of the Workflow Integration Manager. 
+		
+	Ditator and Lieutenants workflow
+		
+	Forking workflow (Forks Fork, pull request request or merge )
+		
 	
 	
